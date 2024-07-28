@@ -5,4 +5,9 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: "/junlanding/",
   plugins: [react()],
+  css:{
+    module: {
+      localsConvention: "camelCase",
+    },
+  },
 })

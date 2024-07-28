@@ -1,0 +1,88 @@
+@import "../../vars.css";
+
+.projectSection {
+    margin-top:4%;
+    max-width: 100%;
+    margin-bottom:4%;
+  }
+
+.slider{
+  margin: 0px 5%;
+  display: flex;
+  justify-content: space-between;
+  gap:20px;
+}
+
+.slide{
+  width:95%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+.slide:hover{
+  transform: scale(1.1);
+  margin:5px;
+  .slidebutton:hover{
+    transform: scale(1.05);
+    z-index: 1;
+  }
+}
+
+.slideheader{
+  display: flex;
+  text-transform: uppercase;
+  /* color: rgb(144, 96, 188); */
+  color:black;
+  padding-top:20px;
+  padding-left:20px;
+  padding-right:20px;
+  padding-bottom:10px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.slideheader img{
+  width: 17%;
+}
+
+.slideimage{
+  width:100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.slide p{
+  padding-top:0;
+  padding-right:20px;
+  padding-left:20px;
+  padding-bottom:15px;
+}
+
+.slidebutton{
+  margin-bottom:20px;
+  text-align: right;
+  margin-right: 20px;
+  transition: all 0.3s ease;
+}
+
+.slide a{
+  align-content: right;
+  width:20px;
+  background-color: black;
+  color:white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  transition: all 0.3 ease;
+}
+
+
+@media screen and (max-width:830px){
+  .slider{
+    flex-direction: column;
+    align-items: center;
+  }
+}

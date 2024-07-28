@@ -1,0 +1,87 @@
+@import "../../vars.css";
+
+/* Hero.module.css */
+.heroSection {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    color: black;
+    justify-content: space-between;
+    margin-bottom: 0;
+    width:100%;
+}
+
+.heroMain {
+    margin-top:11%;
+    margin-left: 10%;
+    text-align: left; /* Adjust text alignment as needed */
+    margin-bottom:10%;
+}
+
+.heroMain h2 {
+    font-size: 30px;
+}
+
+.heroAbout {
+    font-size: 40px;
+}
+
+.heroName {
+    font-size: 60px;
+    margin-top: 10px;
+    /* color: rgb(251, 158, 10); */
+    color: rgb(144, 96, 188);
+    font-family:"Elanor";
+}
+
+.heroContact {
+    margin-top: 3%;
+}
+
+.heroContact a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    display: inline-block; /* Ensure the anchor tag is block-level for clickable area */
+}
+
+.heroContact a:hover {
+    font-size: 20px;
+    padding: 10px 25px;
+}
+
+.heroSpline {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Ensure this does not interfere with clickable elements */
+}
+
+
+@media screen and (max-width:830px){
+    .heroMain{
+        text-align: center;
+        align-items: center;
+        margin-left:10%;
+        margin-right: 10%;
+    }
+    .heroMain h2{
+        font-size:20px;
+    }
+    .heroName {
+        font-size:40px;
+    }
+    .heroAbout{
+        font-size:35px;
+    }
+
+    .heroContact a{
+        font-size:20px;
+    }
+  }
