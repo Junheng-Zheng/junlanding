@@ -71,17 +71,23 @@
         margin-left:10%;
         margin-right: 10%;
     }
+    .heroSection{
+        text-align: center;
+    }
     .heroMain h2{
         font-size:20px;
+        display: none;
     }
     .heroName {
         font-size:40px;
+        font-family:"Roboto";
     }
     .heroAbout{
         font-size:35px;
     }
 
     .heroContact a{
-        font-size:20px;
+        font-size:17px;
+        margin-top:8px;
     }
   }
