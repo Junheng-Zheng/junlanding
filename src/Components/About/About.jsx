@@ -9,10 +9,10 @@ export const About = () => {
                 <div class={styles.grid1}><img src="./src/assets/nav/HeroPageProfile.jpg"></img></div>
                 <div class={styles.grid2}>
                     <section class={styles.grid2TechStack}>
-                        <img src="src/Components/About/images/HTML5.png"></img>
-                        <img src="src/assets/nav/CSS3.png"></img>
-                        <img src="././src/assets/nav/JavaScript.png"></img>
-                        <img src="././././src/assets/nav/React.png"></img>
+                        <img src="./src/assets/nav/HTML5.png"></img>
+                        <img src="./src/assets/nav/CSS3.png"></img>
+                        <img src="./src/assets/nav/JavaScript.png"></img>
+                        <img src="./src/assets/nav/React.png"></img>
                         <img src="./src/assets/nav/Python.png"></img>
                         <img src="./src/assets/nav/Java.png"></img>
                         <img src="./src/assets/nav/Flutter.png"></img>
