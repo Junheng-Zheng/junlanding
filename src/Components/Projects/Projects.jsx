@@ -10,41 +10,29 @@ export const Projects = () => {
            <img className={styles.slideimage} src="./src/assets/nav/weatherlite.jpg"></img>
               <div className={styles.slideheader}>
                 <h2>WeatherLite</h2>
-                <div>
-                  <img src="./src/assets/nav/Flutter.png"></img>
-                </div>
               </div>
-              <p>A simple weather app created with Flutter</p>
+              <p>A basic and simple weather app that allows users to check weather from different locations.
+                 Created with flutter. </p>
               <div className={styles.slidebutton}>
                 <a>Learn More</a>
               </div>
               </div>
               <div className={styles.slide}>
-           <img className={styles.slideimage} src="./src/assets/nav/weatherlite.jpg"></img>
+           <img className={styles.slideimage} src="./src/assets/nav/manhattanpage.jpg"></img>
               <div className={styles.slideheader}>
-                <h2>WeatherLite</h2>
-                <section>
-                  <img src="./src/assets/nav/HTML5.png"></img>
-                  <img src="./src/assets/nav/CSS3.png"></img>
-                  <img src="./src/assets/nav/JavaScript.png"></img>
-                  <img src="./src/assets/nav/PHP.png"></img>
-                </section>
+                <h2>Discover Manhattan</h2>
               </div>
-              <p>A simple weather app created with Flutter</p>
+              <p>A website showcasing Manhattan, NYC. Created with HTML, CSS, JS and PHP</p>
               <div className={styles.slidebutton}>
                 <a>Learn More</a>
               </div>
               </div>
                      <div className={styles.slide}>
-           <img className={styles.slideimage} src="./src/assets/nav/weatherlite.jpg"></img>
+           <img className={styles.slideimage} src="./src/assets/nav/landingpage.jpg"></img>
               <div className={styles.slideheader}>
-                <h2>WeatherLite</h2>
-                <div>
-                  <img src="./src/assets/nav/Vite.js.png"></img>
-                  <img src="./src/assets/nav/React.png"></img>
-                </div>
+                <h2>This Landing Page</h2>
               </div>
-              <p>A simple weather app created with Flutter</p>
+              <p>A porfolio website showcasuing me and my work. Created with Vite and React</p>
               <div className={styles.slidebutton}>
                 <a>Learn More</a>
               </div>
