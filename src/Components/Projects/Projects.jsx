@@ -7,7 +7,7 @@ export const Projects = () => {
         <div className={styles.projectSection}>
           <div className={styles.slider}>
            <div className={styles.slide}>
-           <img className={styles.slideimage} src="./src/assets/nav/weatherlite.jpg"></img>
+           <img className={styles.slideimage} src="./assets/nav/weatherlite.jpg"></img>
               <div className={styles.slideheader}>
                 <h2>WeatherLite</h2>
               </div>
@@ -18,7 +18,7 @@ export const Projects = () => {
               </div>
               </div>
               <div className={styles.slide}>
-           <img className={styles.slideimage} src="./src/assets/nav/manhattanpage.jpg"></img>
+           <img className={styles.slideimage} src="./assets/nav/manhattanpage.jpg"></img>
               <div className={styles.slideheader}>
                 <h2>Discover Manhattan</h2>
               </div>
@@ -28,7 +28,7 @@ export const Projects = () => {
               </div>
               </div>
                      <div className={styles.slide}>
-           <img className={styles.slideimage} src="./src/assets/nav/landingpage.jpg"></img>
+           <img className={styles.slideimage} src="./assets/nav/landingpage.jpg"></img>
               <div className={styles.slideheader}>
                 <h2>This Landing Page</h2>
               </div>
