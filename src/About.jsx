@@ -6,24 +6,24 @@ export const About = () => {
     return (
         <div  className={styles.projectSection}>
             <div className={styles.projectsWrapper}>
-                <div class={styles.grid1}><img src="./src/assets/nav/HeroPageProfile.jpg"></img></div>
+                <div class={styles.grid1}><img src="./assets/nav/HeroPageProfile.jpg"></img></div>
                 <div class={styles.grid2}>
                     <section class={styles.grid2TechStack}>
-                        <img src="./assets/nav/junheropic.jpg"></img>
+                        <img src="./assets/nav/HTML5.png"></img>
                         <img src="./assets/nav/CSS3.png"></img>
-                        <img src="./src/assets/nav/JavaScript.png"></img>
-                        <img src="./src/assets/nav/React.png"></img>
-                        <img src="./src/assets/nav/Python.png"></img>
-                        <img src="./src/assets/nav/Java.png"></img>
-                        <img src="./src/assets/nav/Flutter.png"></img>
-                        <img src="./src/assets/nav/MySQL.png"></img>
-                        <img src="./src/assets/nav/VSCode.png"></img>
-                        <img src="./src/assets/nav/Vite.js.png"></img>
-                        <img class={styles.grid2TechStackshow} src="./src/assets/nav/FileZilla.png"></img>
-                        <img class={styles.grid2TechStackshow} src="./src/assets/nav/PHP.png"></img>
-                        <img class={styles.grid2TechStackshow} src="./src/assets/nav/Adobe Illustrator.png"></img>
-                        <img class={styles.grid2TechStackshow} src="./src/assets/nav/Adobe Photoshop.png"></img>
-                        <img class={styles.grid2TechStackshow} src="./src/assets/nav/Figma.png"></img>
+                        <img src="./assets/nav/JavaScript.png"></img>
+                        <img src="./assets/nav/React.png"></img>
+                        <img src="./assets/nav/Python.png"></img>
+                        <img src="./assets/nav/Java.png"></img>
+                        <img src="./assets/nav/Flutter.png"></img>
+                        <img src="./assets/nav/MySQL.png"></img>
+                        <img src="./assets/nav/VSCode.png"></img>
+                        <img src="./assets/nav/Vite.js.png"></img>
+                        <img class={styles.grid2TechStackshow} src="./assets/nav/FileZilla.png"></img>
+                        <img class={styles.grid2TechStackshow} src="./assets/nav/PHP.png"></img>
+                        <img class={styles.grid2TechStackshow} src="./assets/nav/Adobe Illustrator.png"></img>
+                        <img class={styles.grid2TechStackshow} src="./assets/nav/Adobe Photoshop.png"></img>
+                        <img class={styles.grid2TechStackshow} src="./assets/nav/Figma.png"></img>
                     </section>
                 </div>
                 <div class={styles.grid3}>
@@ -48,10 +48,10 @@ export const About = () => {
                 </div>
                 <div class={styles.grid5}>
                     <section class={styles.grid5flex}>
-                        <img src="./src/assets/socials/linkedinicon.png"></img>
-                        <img src="./src/assets/socials/githubicon.png"></img>
-                        <img src="./src/assets/socials/xicon.png"></img>
-                        <img src="./src/assets/socials/instagramicon.png"></img>
+                        <img src="./assets/socials/linkedinicon.png"></img>
+                        <img src="./assets/socials/githubicon.png"></img>
+                        <img src="./assets/socials/xicon.png"></img>
+                        <img src="./assets/socials/instagramicon.png"></img>
                     </section>
                 </div>
             </div>
