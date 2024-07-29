@@ -32,7 +32,7 @@ export const Projects = () => {
               <div className={styles.slideheader}>
                 <h2>This Landing Page</h2>
               </div>
-              <p>A porfolio website showcasuing me and my work. Created with Vite and React</p>
+              <p>A responsive website showcasuing me and my work. Created with Vite and React</p>
               <div className={styles.slidebutton}>
                 <a>Learn More</a>
               </div>

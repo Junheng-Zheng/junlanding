@@ -4,6 +4,7 @@ import { Navbar } from "./Components/Navbar/Navbar"
 import { Hero } from "./Components/Hero/Hero"
 import { About } from "./About"
 import { Projects } from "./Components/Projects/Projects"
+import { Contact } from "./Components/Contact/Contact"
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <Hero />
             <About />
             <Projects />
+            <Contact />
     </div>;
 }
 
